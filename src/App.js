@@ -17,7 +17,7 @@ class Counter extends Component {
   }
 
   render() {
-  return (
+    return (
       <React.Fragment>
         <div>count: { this.state.count }</div>
         <button onClick={this.handlePlusButton}>+1</button>
